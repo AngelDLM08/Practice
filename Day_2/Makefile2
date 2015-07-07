@@ -1,0 +1,2 @@
+all:
+	gcc pr2.c -o opr2 -lpthread
