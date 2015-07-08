@@ -28,11 +28,11 @@ int main (int argc, char *argv[]) {
 			exit (-1);
 		}
 		
-		//for (lol=0; lol<10; lol++){
-		//	if (t==0){PEREMENNAYA+=2; printf("Potok1, +2\n");}
-		//		else {PEREMENNAYA-=2; printf("Potok2, -2\n");};
-		//	printf("PEREMENNAYA= %d\n",PEREMENNAYA);
-		//}
+		for (lol=0; lol<10; lol++){
+			if (t==0){PEREMENNAYA+=2; printf("Potok1, +2\n");}
+				else {PEREMENNAYA-=2; printf("Potok2, -2\n");};
+			printf("PEREMENNAYA= %d\n",PEREMENNAYA);
+		}
 	}
 
 	for(t = 0; t< NUM_THREADS; t++) {
