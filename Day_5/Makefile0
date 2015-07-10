@@ -1,0 +1,2 @@
+all:
+	gcc pr0.c -o pr0 -lrt
