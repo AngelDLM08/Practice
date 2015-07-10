@@ -1,0 +1,2 @@
+all:
+	gcc timer4.c -o timer4 -lrt
